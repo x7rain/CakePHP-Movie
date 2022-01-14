@@ -140,7 +140,7 @@
         <div class='list-of-movies'>
             <ul>    
             <?php
-            $uploaddir = "/repository/movie_x7rain/uploads/posters/"; //место куда сохранены постеры  
+            $uploaddir = "/repository/uploads/posters/"; //место куда сохранены постеры  
             try {
                 for( $i = 0; $i < count( $results->data ); $i++ ){ //код будет повторяться в зависимости от лимита
                     $budget = '$'; // на случай если не указан бюджет
