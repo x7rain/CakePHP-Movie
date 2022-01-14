@@ -83,7 +83,7 @@
                 $query = $dbh->prepare("INSERT INTO movies (title, date, director, budget, poster) VALUES (:title, :date, :director, :budget, :poster)");
                 $query->execute($data);
                 //сохранение постера на сервер
-                $uploaddir = 'C:\Users\Vlad\repository\movie_x7rain\uploads\posters\\';
+                $uploaddir = './uploads/posters/';
                 $uploadfile = $uploaddir . basename($_FILES['mposter']['name']);
                 move_uploaded_file($_FILES['mposter']['tmp_name'], $uploadfile);
             }  
