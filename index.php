@@ -14,7 +14,7 @@
         <form action="" method="GET">
                 <div class='search'>            
                     <input type="text" name="mquery" id='searchIn'>
-                    <button id='searchBu'><img src="/repository/movie_x7rain/img/sr.png" alt="Поиск" height=20px></button>   
+                    <button id='searchBu'><img src="/repository/img/sr.png" alt="Поиск" height=20px></button>   
                 </div>         
             <details>
                 <summary class='summary1'>Фильтры</summary>
